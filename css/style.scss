@@ -1,0 +1,65 @@
+@import "_variables.scss";
+
+.text-shadow {
+    text-shadow: 0px 0px 5px black;
+}
+
+.sticky {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+}
+
+.bg-color {
+    background: $color1;
+}
+
+.bg-color2 {
+    background: $color2;
+}
+
+.bg-color3 {
+    background: $color3;
+}
+
+.logo {
+    margin-right: 40px;
+    width: 80px;
+}
+
+.white {
+    background-color: white;
+}
+
+.card-width {
+    width: 100px !important;
+}
+
+.border-color2 {
+    border-color: $color2;
+}
+
+.icon-medium {
+    font-size: 30px;
+    text-align: center;
+}
+
+.icon-large {
+    font-size: 60px;
+    text-align: center;
+}
+
+.icon-xxl {
+    font-size: 72px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.coppyright {
+    height: 20px;
+}
+
+.center-card {
+    padding: 4%;
+}
+
