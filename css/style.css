@@ -60,4 +60,19 @@
 .center-card {
   padding: 4%;
 }
+
+@media (min-width: 768px) {
+  .d-md-inline {
+    display: inline;
+  }
+  .text-sm {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .text-sm {
+    font-size: 14px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
