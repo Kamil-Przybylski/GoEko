@@ -12,8 +12,12 @@
   background: #3E9566;
 }
 
+.text-color {
+  color: #3E9566;
+}
+
 .bg-color2 {
-  background: #3C6C86;
+  background: #3C6C86 !important;
 }
 
 .bg-color3 {
@@ -64,8 +68,17 @@
   background-size: cover;
 }
 
-.card-width {
-  width: 100px !important;
+.diffrents {
+  background-image: url("../img/eco.jpeg") !important;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto;
+  height: 500px;
+}
+
+.scroll {
+  overflow: auto;
+  height: 600px;
 }
 
 .border-color2 {
@@ -90,10 +103,6 @@
 
 .coppyright {
   height: 20px;
-}
-
-.center-card {
-  padding: 4%;
 }
 
 @media (min-width: 768px) {

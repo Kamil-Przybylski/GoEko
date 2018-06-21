@@ -14,8 +14,12 @@
     background: $color1;
 }
 
+.text-color {
+    color: $color1;
+}
+
 .bg-color2 {
-    background: $color2;
+    background: $color2 !important;
 }
 
 .bg-color3 {
@@ -66,10 +70,17 @@
     background-size: cover;
 }
 
+.diffrents {
+    background-image: url("../img/eco.jpeg") !important;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 500px;
+}
 
-
-.card-width {
-    width: 100px !important;
+.scroll {
+    overflow: auto;
+    height: 600px;
 }
 
 .border-color2 {
@@ -96,9 +107,6 @@
     height: 20px;
 }
 
-.center-card {
-    padding: 4%;
-}
 
 @media (min-width: 768px) { 
     .d-md-inline {
