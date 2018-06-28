@@ -14,6 +14,7 @@
     <meta name="keywords" content="GoEko, eko, energy, house, odnawialne, źródła, energii, instalacje">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/tuesday.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/css/fontello.css">
 </head>
@@ -27,27 +28,27 @@
     <main role="main">
         
         <!-- Jumbotron -->
-        <section>
+        <section id="section0">
 
             <header class="position-relative">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-color shadow navigation">
-                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" class="logo"><span class="d-none d-md-inline">GoEko</span></a>
+                <a class="navbar-brand" href="#section0"><img src="img/logo.png" alt="logo" class="logo"><span class="d-none d-md-inline">GoEko</span></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">O nas <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#section1">O nas <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Oferta</a>
+                                <a class="nav-link" href="#section2">Oferta</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">FAQ</a>
+                                <a class="nav-link" href="#section3">FAQ</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Kontakt</a>
+                                <a class="nav-link" href="#section4">Kontakt</a>
                             </li>
                         </ul>
                     </div>
@@ -62,19 +63,19 @@
                 </ol>
                 <div class="carousel-inner h-100">
                     <div class="carousel-item carousel-image-1 carousel-options active">
-                        <div class="carousel-caption d-none d-sm-block text-shadow">
+                        <div class="carousel-caption text-shadow">
                             <h2>GoEko – systemy pasywne</h2>
                             <p>Innowacyjne rozwiązania z dziedziny odnawialnych źródeł energii  wraz z przestrzenią architektury krajobrazu</p>
                         </div>
                     </div>
                     <div class="carousel-item carousel-image-2 carousel-options">
-                        <div class="carousel-caption d-none d-sm-block text-shadow">
+                        <div class="carousel-caption text-shadow">
                             <h2>Branża hydrauliczna</h2>
                             <p>Realizacje instalacji hydraulicznych od samego początku budowy domu</p>
                         </div>
                     </div>
                     <div class="carousel-item carousel-image-4 carousel-options">
-                        <div class="carousel-caption d-none d-sm-block text-shadow">
+                        <div class="carousel-caption text-shadow">
                             <h3>Projektowanie ogrodów</h3>
                             <p>Wykończenia domów wraz z architekturą krajobrazu</p>
                         </div>
@@ -95,9 +96,9 @@
 
             <!-- O Nas -->
 
-            <section class="container-fluid bg-light mt-0"> 
+            <section class="container-fluid bg-light mt-0" id="section1"> 
                 <div class="container jumbotron white bg-light p-5">
-                    <div class="row">
+                    <div class="row animated1" data-animation="tdFadeIn">
                         <div class="col-xs-12 col-lg-8">
                             <h1 class="display-4 mb-5 text-color">O nas</h1>
                             <p class="lead">GoEko - to firma zajmująca się innowacyjnymi rozwiązaniami z dziedziny odnawialnych źródeł energii dla twojego domu oraz  przestrzenią architektury krajobrazu w którą się on wpisuję . Stawiamy na kompleksową realizację inwestycji począwszy od fazy koncepcyjnej i projektowej, aż po wykonanie całej instalacji "pod klucz" wraz z kwestią formalną.</p>
@@ -107,16 +108,16 @@
                         </div>
                     </div>
                     <hr class="my-4">
-                    <p>Naszym priorytetem jest zaprojektowanie i stworzenie instalacji, które dadzą użytkownikowi satysfakcję oraz oszczędność</p>
+                    <p class="animated1" data-animation="tdFadeIn">Naszym priorytetem jest zaprojektowanie i stworzenie instalacji, które dadzą użytkownikowi satysfakcję oraz oszczędność</p>
                 </div>
             </section>
 
             <!-- Oferta -->
             
-            <section class="container text-center">
+            <section class="container text-center" id="section2">
 
                 <div class="row">
-                    <div class="col-lg-6 p-4 d-flex align-items-center justify-content-end">
+                    <div class="col-lg-6 p-4 d-flex align-items-center justify-content-end animated1" data-animation="tdFadeInRight">
                         <div class="text-lg-right w-100">
                             <h2 class="text-color">Oferta instalacji hydraulicznej</h2>
                             <h4 class="text-color">hydraulika i ogrzewanie -</h4>
@@ -124,7 +125,7 @@
                             <p>Proponujemy nasze rozwiązania zarówno Klientom indywidualnym, jak i wspólnotom mieszkaniowym, przedsiębiorcom oraz instytucjom.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 p-4 d-flex align-items-center justify-content-center">
+                    <div class="col-12 col-lg-6 p-4 d-flex align-items-center justify-content-center animated1" data-animation="tdFadeInLeft">
                         <img src="img/Img-hydr.jpeg" alt="solar" class="img-fluid card">
                     </div>
                 </div>
@@ -132,10 +133,10 @@
                 <hr class="m-5">
 
                 <div class="row">
-                    <div class="col-lg-6 p-4 d-flex align-items-center justify-content-center">
+                    <div class="col-lg-6 p-4 d-flex align-items-center justify-content-center animated1" data-animation="tdFadeInRight">
                         <img src="img/Img-solar.jpeg" alt="donations" class="img-fluid card">
                     </div>
-                    <div class="col-lg-6 p-4 d-flex align-items-center justify-content-start">
+                    <div class="col-lg-6 p-4 d-flex align-items-center justify-content-start animated1" data-animation="tdFadeInLeft">
                         <div class="text-lg-left w-100">
                             <h2 class="text-color">Termomodernizacja</h2>
                             <h4 class="text-color">- odnawialne źródła energii</h4>
@@ -155,7 +156,7 @@
                 <hr class="m-5">
 
                 <div class="row">
-                    <div class="col-lg-6 p-4 d-flex align-items-center justify-content-end">
+                    <div class="col-lg-6 p-4 d-flex align-items-center justify-content-end animated1" data-animation="tdFadeInRight">
                         <div class="text-lg-right w-100">
                             <h2 class="text-color">Dotacje</h2>
                             <h4 class="text-color">finansowanie inwestycji OZE -</h4>
@@ -163,7 +164,7 @@
                             <p>dofinansowaniem mogą być inwestycje związane z: pompami ciepła, bateriami i kolektorami słonecznymi, elektrowniami wiatrowymi, kompletnymi instalacjami solarnymi etc. Wiemy jak i co zrobić, żeby inwestowanie w odnawialne źródła energii to był CZYSTY ZYSK. Zapraszamy do kontaktu telefonicznego lub przez formularz.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 p-4 d-flex align-items-center justify-content-center">
+                    <div class="col-lg-6 p-4 d-flex align-items-center justify-content-center animated1" data-animation="tdFadeInLeft">
                         <img src="img/Img-donations.jpeg" alt="donations" class="img-fluid card">
                     </div>
                 </div>
@@ -171,10 +172,10 @@
                 <hr class="m-5">
 
                 <div class="row">
-                    <div class="col-12 col-lg-6 p-4 d-flex align-items-center justify-content-center">
+                    <div class="col-12 col-lg-6 p-4 d-flex align-items-center justify-content-center animated1" data-animation="tdFadeInRight">
                         <img src="img/Img-arch.jpeg" alt="solar" class="img-fluid card">
                     </div>
-                    <div class="col-lg-6 p-4 d-flex align-items-center justify-content-start">
+                    <div class="col-lg-6 p-4 d-flex align-items-center justify-content-start animated1" data-animation="tdFadeInLeft">
                         <div class="text-lg-left w-100">
                             <h2 class="text-color">Ofera projektowania ogrodów</h2>
                             <h4 class="text-color">- zagospodarowanie terenów zieleni</h4>
@@ -188,7 +189,7 @@
             <!-- Różnice -->
 
             <section class="container-fluid mt-5 mb-5 mr-0 ml-0 p-0">
-                    <div class="card diffrents bg-dark text-dark d-flex justify-content-center">
+                    <div class="card diffrents bg-dark text-dark d-flex justify-content-center animated1" data-animation="tdFadeIn">
                         <div class="text-center">
                             <h3 class="card-title">Kolektory słoneczne i panele fotowoltaiczne</h3>
                             <p class="card-text p-4">na czym polega różnica?</p>
@@ -223,7 +224,7 @@
 
             <!-- Pytania -->
 
-            <section class="container bg-light mb-5 pb-4">
+            <section class="container bg-light mb-5 pb-4 animated" data-animation="tdFadeIn" id="section3">
 
                 <nav id="navbar-example2" class="navbar navbar-light bg-light">
                     <h3 class="text-color m-0 p-0">FAQ - Najczęstrze pytania</h3>
@@ -282,25 +283,33 @@
                         <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
                         <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
                         <li data-target="#carouselExampleIndicators2" data-slide-to="5"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="6"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="7"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/zdj/zdj-1.JPG" alt="First slide">
+                            <img class="d-block w-100" src="img/zdj/zdj-1.JPG" alt="first slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block w-100" src="img/zdj/zdj-2.JPG" alt="Second slide">
+                            <img class="d-block w-100" src="img/zdj/zdj-2.JPG" alt="second slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block w-100" src="img/zdj/zdj-3.JPG" alt="Third slide">
+                            <img class="d-block w-100" src="img/zdj/zdj-3.JPG" alt="third slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block w-100" src="img/zdj/zdj-4.JPG" alt="Third slide">
+                            <img class="d-block w-100" src="img/zdj/zdj-4.JPG" alt="fourth slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block w-100" src="img/zdj/zdj-5.JPG" alt="Third slide">
+                            <img class="d-block w-100" src="img/zdj/zdj-5.JPG" alt="fifth slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block w-100" src="img/zdj/zdj-6.JPG" alt="Third slide">
+                            <img class="d-block w-100" src="img/zdj/zdj-6.JPG" alt="sixth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/zdj/zdj-7.JPG" alt="seventh slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/zdj/zdj-8.JPG" alt="eighth slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
@@ -318,8 +327,8 @@
         
     </main>
 
-    <footer class="container-fluid bg-color pt-5 pb-2">
-        <div class="container">
+    <footer class="container-fluid bg-color pt-5 pb-2" id="section4">
+        <div class="container animated" data-animation="tdExpandIn">
 
             <div class="row">
                 <div class="col-md-12 col-lg-6 text-center bg-color text-light center-card">
@@ -350,8 +359,30 @@
             </div>
 
         </div>
+
         <hr class="m-0">
-        <div class="container text-center p-3">
+
+        <ul class="nav nav-footer d-flex animated" data-animation="tdExpandIn">
+            <li class="nav-item">
+                <a class="nav-link" href="#section0">GoEko</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section1">O Nas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section2">Oferta</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section3">FAQ</a>
+            </li>
+        </ul>
+
+        <hr class="m-0">
+
+        <div class="container text-center p-3 animated" data-animation="tdExpandIn">
+            <a href="#section0">
+                <img class="img-fluid logo pt-2 text-right" src="img/logo.png" alt="logo" class="logo">
+            </a>
             <p class="lead text-light mb-0 p-0 coppyright"><small>&copy L.E.H low energy House - Wszelkie prawa zastrzeżone</small></p>
             <p class="lead text-light mb-0 p-0 coppyright"><small>2018 created by Kamil Przybylski</small></p>
         </div>
@@ -364,6 +395,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>

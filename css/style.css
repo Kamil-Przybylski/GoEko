@@ -119,4 +119,14 @@
     font-size: 14px;
   }
 }
+
+.nav-footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-footer li a {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
