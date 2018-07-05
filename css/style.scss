@@ -1,5 +1,9 @@
 @import "_variables.scss";
 
+main, footer {
+    overflow: hidden;
+}
+
 .text-shadow {
     text-shadow: 0px 0px 5px black;
 }
