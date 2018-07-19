@@ -21,6 +21,8 @@
 </head>
 
 <body>
+    <h1 class="sr-only">Strona</h1>
+
     <!--[if lt IE 7]>
         <p class="browsehappy">Używasz <strong>przestarzałej</strong> przeglądarki. Proszę <a href="https://www.google.pl/chrome/index.html">uaktualnij swoją przeglądarke</a> aby strona wyświetlała się poprawnie</p>
     <![endif]-->
@@ -30,12 +32,13 @@
 
         <!-- Jumbotron -->
         <article id="section0">
+            <h1 class="sr-only">Nagłówek</h1>
 
             <header class="position-relative">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-color shadow navigation">
+                    <h1 class="sr-only">Nawigacja</h1>
                     <a class="navbar-brand" href="#section0">
                         <img src="img/logo.png" alt="logo" class="logo">
-                        <span class="d-none d-md-inline">GoEko</span>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -62,29 +65,32 @@
                 </nav>
             </header>
 
-            <section id="carouselExampleIndicators" class="carousel slide carousel-fade h-100vh" data-ride="carousel" data-interval="5000">
+            <section id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner h-100">
-                    <div class="carousel-item carousel-image-1 carousel-options active">
+                <div class="carousel-inner">
+                    <div class="carousel-item Scarousel-image-1 Scarousel-options active">
+                        <img class="d-block h-100vh" src="img/carousel-1.jpg" alt="slajd-1">
                         <div class="carousel-caption text-shadow">
                             <h2>GoEko – systemy pasywne</h2>
                             <p>Innowacyjne rozwiązania z dziedziny odnawialnych źródeł energii wraz z przestrzenią architektury
                                 krajobrazu</p>
                         </div>
                     </div>
-                    <div class="carousel-item carousel-image-2 carousel-options">
+                    <div class="carousel-item Scarousel-image-2 Scarousel-options">
+                        <img class="d-block h-100vh" src="img/carousel-2.jpg" alt="slajd-1">
                         <div class="carousel-caption text-shadow">
                             <h2>Branża hydrauliczna</h2>
                             <p>Realizacje instalacji hydraulicznych od samego początku budowy domu</p>
                         </div>
                     </div>
-                    <div class="carousel-item carousel-image-4 carousel-options">
+                    <div class="carousel-item Scarousel-image-4 Scarousel-options">
+                        <img class="d-block h-100vh" src="img/carousel-4.jpg" alt="slajd-1">
                         <div class="carousel-caption text-shadow">
-                            <h3>Projektowanie ogrodów</h3>
+                            <h2>Projektowanie ogrodów</h2>
                             <p>Wykończenia domów wraz z architekturą krajobrazu</p>
                         </div>
                     </div>
@@ -103,6 +109,7 @@
         <!-- O Nas -->
 
         <article class="container-fluid bg-light mt-0" id="section1">
+            <h1 class="sr-only">O Nas</h1>
             <section class="container jumbotron white bg-light p-5">
                 <div class="row animated1" data-animation="tdFadeIn">
                     <div class="col-xs-12 col-lg-8">
@@ -125,12 +132,13 @@
         <!-- Oferta -->
 
         <article class="container text-center" id="section2">
+            <h1 class="sr-only">Oferta</h1>
 
             <section class="row">
                 <div class="col-lg-6 p-4 d-flex align-items-center justify-content-end animated1" data-animation="tdFadeInRight">
                     <div class="text-lg-right w-100">
                         <h2 class="text-color">Oferta instalacji hydraulicznej</h2>
-                        <h4 class="text-color">hydraulika i ogrzewanie</h4>
+                        <p class="text-color h4">hydraulika i ogrzewanie</p>
                         <p>Oferujemy realizację instalacji hydraulicznych od samego początku budowy domu to znaczy przyłącza
                             wodno kanalizacyjne oraz w późniejszych etapach instalację centralnego ogrzewania którą przygotowujemy
                             w oparciu o przewidywane bądź znane już zużycie energii. </p>
@@ -152,7 +160,7 @@
                 <div class="col-lg-6 p-4 d-flex align-items-center justify-content-start animated1" data-animation="tdFadeInLeft">
                     <div class="text-lg-left w-100">
                         <h2 class="text-color">Termomodernizacja</h2>
-                        <h4 class="text-color">odnawialne źródła energii</h4>
+                        <p class="text-color h4">odnawialne źródła energii</p>
                         <p>Oferujemy również termomodernizację już istniejących systemów C.O i C.W.U opartego zależnie od potrzeb
                             klientów i możliwości wykorzystania energii płynących z usytuowania inwestycji na:</p>
                         <ul>
@@ -173,7 +181,7 @@
                 <div class="col-lg-6 p-4 d-flex align-items-center justify-content-end animated1" data-animation="tdFadeInRight">
                     <div class="text-lg-right w-100">
                         <h2 class="text-color">Dotacje</h2>
-                        <h4 class="text-color">finansowanie inwestycji OZE</h4>
+                        <p class="text-color h4">finansowanie inwestycji OZE</p>
                         <p>Skutecznie udaje nam się uzyskiwać dla naszych klientów zarówno dotację z Unii Europejskiej lub w
                             ramach innych zewnętrznych mechanizmów finansowych, ale również dotacje lub preferencyjny kredyt
                             z wykorzystaniem krajowych środków.</p>
@@ -197,7 +205,7 @@
                 <div class="col-lg-6 p-4 d-flex align-items-center justify-content-start animated1" data-animation="tdFadeInLeft">
                     <div class="text-lg-left w-100">
                         <h2 class="text-color">Ofera projektowania ogrodów</h2>
-                        <h4 class="text-color">zagospodarowanie terenów zieleni</h4>
+                        <p class="text-color h4">zagospodarowanie terenów zieleni</p>
                         <p>konsultacje, projekty 3D</p>
                     </div>
                 </div>
@@ -208,6 +216,7 @@
         <!-- Różnice -->
 
         <article class="container-fluid mt-5 mb-5 mr-0 ml-0 p-0">
+            <h1 class="sr-only">Kolektory słoneczne</h1>
             <section class="card diffrents bg-dark text-dark d-flex justify-content-center">
                 <div class="text-center">
                     <h3 class="card-title">Kolektory słoneczne i panele fotowoltaiczne</h3>
@@ -258,6 +267,7 @@
         <!-- Pytania -->
 
         <article class="container bg-light mb-5 pb-4 animated" data-animation="tdFadeIn" id="section3">
+            <h1 class="sr-only">Pytania</h1>
 
             <nav id="navbar-example2" class="navbar navbar-light bg-light">
                 <h3 class="text-color m-0 p-0">FAQ - Najczęstrze pytania</h3>
@@ -386,6 +396,7 @@
         <!-- Album zdjęć -->
 
         <article class="container-fluid p-0">
+            <h1 class="sr-only">Album zdjęć</h1>
             <section id="carouselExampleIndicators2" class="carousel slide shadow" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
@@ -438,6 +449,7 @@
 
     <footer class="container-fluid bg-color pt-5 pb-2" id="section4">
         <article class="container animated" data-animation="tdExpandIn">
+            <h1 class="sr-only">Kontakt</h1>
 
             <section class="row">
                 <div class="col-md-12 col-lg-6 text-center bg-color text-light center-card">
@@ -456,14 +468,17 @@
                 </div>
 
                 <div class="col-md-12 col-lg-6 bg-color text-light">
-                    <form>
+                    <form action="https://formspree.io/kminus@interia.eu" method="POST">
                         <div class="form-group">
                             <label for="exampleFormControlInput1" class="text-light">Podaj swój adres E-mail</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nazwa@poczta.com">
+                            <input type="email" name="_replyto" class="form-control" id="exampleFormControlInput1" placeholder="nazwa@poczta.com">
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1" class="text-light">Napisz do nas wiadomość</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Twoja wiadomość..."></textarea>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Twoja wiadomość..." type="text" name="name"></textarea>
+                        </div>
+                        <div class="col-2 p-0 mb-3 submit-btn">
+                            <button target="_blank" type="submit" value="Send" class="btn btn-success">Wyślij</button>
                         </div>
                     </form>
                 </div>
@@ -474,6 +489,7 @@
         <hr class="m-0">
 
         <nav>
+            <h1 class="sr-only">Nawigacja</h1>
             <ul class="nav nav-footer d-flex animated" data-animation="tdExpandIn">
                 <li class="nav-item">
                     <a class="nav-link" href="#section0">GoEko</a>
@@ -493,7 +509,8 @@
         <hr class="m-0">
 
         <article class="container text-center p-3 animated" data-animation="tdExpandIn">
-            <section>
+            <h1 class="sr-only">Coppyrights</h1>
+            <div>
                 <a href="#section0">
                     <img class="img-fluid logo pt-2 text-right" src="img/logo.png" alt="logo" class="logo">
                 </a>
@@ -503,7 +520,7 @@
                 <p class="lead text-light mb-0 p-0 coppyright">
                     <small>2018 created by Kamil Przybylski</small>
                 </p>
-            </section>
+            </div>
         </article>
     </footer>
 

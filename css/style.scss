@@ -33,7 +33,7 @@ main, footer {
 
 .logo {
     margin-right: 40px;
-    width: 80px;
+    width: 100px;
 }
 
 .white {
@@ -83,6 +83,12 @@ main, footer {
     height: 500px;
 }
 
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
 .scroll {
     overflow: auto;
     height: 600px;
@@ -106,6 +112,11 @@ main, footer {
     font-size: 72px;
     text-align: center;
     padding-bottom: 30px;
+}
+
+.submit-btn {
+    display: flex;
+    align-content: flex-end;
 }
 
 .coppyright {
