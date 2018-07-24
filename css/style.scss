@@ -62,40 +62,42 @@ main, footer {
     height: 100vh !important;
 }
 
+.img-cover {
+    object-fit: fill;
+    background: #000;
+}
+
 .carousel-image-1 {
     background-image: url("../img/carousel-1.jpg");
-    background-attachment: fixed;
-    background-size: auto;
-    background-position: center;
 }
 
 .carousel-image-2 {
     background-image: url("../img/carousel-2.jpg");
-    background-attachment: fixed;
-    background-size: auto;
-    background-position: center;
 }
 
 .carousel-image-3 {
     background-image: url("../img/carousel-3.jpg");
-    background-attachment: fixed;
-    background-size: auto;
-    background-position: center;
 }
 
 .carousel-image-4 {
     background-image: url("../img/carousel-4.jpg");
-    background-attachment: fixed;
-    background-size: auto;
-    background-position: center;
 }
 
 .carousel-options {
     height: 100%;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
 }
+
+@media (max-width: 768px) { 
+    .carousel-options {
+        background-attachment: local;
+        background-size: auto;
+    }
+ }
 
 .diffrents {
     background-image: url("../img/eco.jpeg") !important;
